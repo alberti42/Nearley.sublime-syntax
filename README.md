@@ -1,4 +1,4 @@
-# Nearley Syntax Highlighting for Sublime Text
+# Nearley Syntax Highlighting for Sublime Text 3.0
 
 This repository provides a Sublime Text syntax highlighting file for Nearley, a simple, fast, and powerful parsing toolkit. The `Nearley.sublime-syntax` file enables Sublime Text to recognize and highlight the syntax of Nearley grammar files (`*.ne`) effectively.
 
