@@ -27,23 +27,17 @@ To install the Nearley syntax highlighting for Sublime Text on macOS, follow the
    - Copy the `Nearley.sublime-syntax` file into the `Nearley` folder.
 
 3. **Activating the Syntax**
-   - Restart Sublime Text after installing the syntax file.
+   - You may need to restart Sublime Text after installing the syntax file.
    - Open a Nearley grammar file (with the `.ne` extension).
    - Sublime Text should automatically detect and apply the Nearley syntax highlighting. If it does not, you can manually select it from the bottom right corner of the window by clicking on the current syntax name (e.g., "Plain Text") and selecting `Nearley` from the list.
 
-## Support
-
-For issues, suggestions, or contributions, please use the [Issues](https://github.com/yourusername/nearley-syntax-highlighting/issues) section of this GitHub repository.
-
 ## Contributing
 
-Contributions to improve the Nearley syntax highlighting are welcome. Please feel free to fork this repository, make your changes, and submit a pull request.
-
-Thank you for contributing to or using this Nearley syntax highlighting package for Sublime Text!
+Contributions to improve the Nearley syntax highlighting are welcome. Please feel free to fork this repository, make your changes, and submit a pull request. Report any issues in the [GitHub repository](https://github.com/alberti42/Nearley.sublime-syntax/issues).
 
 ## Author
 - **Author:** Andrea Alberti
 - **GitHub Profile:** [alberti42](https://github.com/alberti42)
 - **Donations:** [![Buy Me a Coffee](https://img.shields.io/badge/Donate-Buy%20Me%20a%20Coffee-orange)](https://buymeacoffee.com/alberti)
 
-Feel free to contribute to the development of this syntax file or report any issues in the [GitHub repository](https://github.com/alberti42/import-attachments-plus/issues).
+
