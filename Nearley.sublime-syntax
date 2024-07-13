@@ -1,0 +1,49 @@
+%YAML 1.2
+---
+name: Nearley
+scope: source.nearley
+file_extensions:
+  - ne
+uuid: 275818ac-34ac-43af-aab7-601ce1138319
+
+contexts:
+  main:
+    - include: comments
+    - include: strings
+    - include: functions
+    - include: keywords
+    - include: embedded-js
+    
+  comments:
+    - match: \#.*$
+      scope: comment.line.number-sign.nearley
+
+  strings:
+    - match: \"(?:\\\"|.)*?\"
+      scope: string.quoted.double.nearley
+
+  functions:
+    - match: ^([\S]*)\s*(->)
+      captures:
+        1: entity.name.function.nearley
+        2: keyword.operator.nearley
+
+  keywords:
+    - match: \@(builtin|include|lexer)
+      scope: keyword.control.nearley
+    - match: '\||:(\*|\+|\?)'
+      scope: keyword.operator.nearley
+
+  embedded-js:
+    - match: \@?\{\%
+      scope: punctuation.section.embedded.begin.nearley keyword.operator.nearley
+      embed: scope:source.js
+      embed_scope: source.js.embedded.nearley
+      escape: \%\}
+      escape_captures:
+        0: punctuation.section.embedded.end.nearley keyword.operator.nearley
+
+
+variables:
+  js_block_start: \{\%
+  js_block_end: \%\}
