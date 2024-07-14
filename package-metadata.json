@@ -1,0 +1,9 @@
+{
+  "name": "Nearley Syntax Highlighter",
+  "sublime_text": "*",
+  "version": "1.0.0",
+  "platforms": ["*"],
+  "dependencies": [],
+  "description": "Add basic functionality for Nearley grammar language",
+  "author": "Andrea Alberti"
+}

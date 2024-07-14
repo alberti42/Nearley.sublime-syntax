@@ -42,8 +42,3 @@ contexts:
       escape: \%\}
       escape_captures:
         0: punctuation.section.embedded.end.nearley keyword.operator.nearley
-
-
-variables:
-  js_block_start: \{\%
-  js_block_end: \%\}
